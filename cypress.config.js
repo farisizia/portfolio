@@ -1,4 +1,7 @@
 import { defineConfig } from "cypress";
+import * as dotenv from "dotenv";
+
+dotenv.config(); // baca file .env
 
 export default defineConfig({
   e2e: {
