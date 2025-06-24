@@ -5,17 +5,13 @@ import Hero from "./components/Hero";
 import viteLogo from "/vite.svg";
 
 function App() {
+  const [count, setCount] = useState(0);
   return (
     <>
       <Hero />
       {/* Komponen lain nanti nyusul */}
     </>
   );
-}
-
-function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
