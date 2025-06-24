@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint",
+    "test": "start-server-and-test preview http://localhost:4173 'cypress run'"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -26,12 +27,4 @@
     "start-server-and-test": "^2.0.12",
     "vite": "^6.3.5"
   }
-
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "test": "start-server-and-test preview http://localhost:4173 'cypress run'"
-}
-
 }
